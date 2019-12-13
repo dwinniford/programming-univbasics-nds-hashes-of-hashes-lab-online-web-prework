@@ -14,9 +14,9 @@ PORTION_1 = {
    }
  }
  
-# PORTION_2 = {
-#   label: "Order"
-# }
+PORTION_2 = {
+  label: "Order"
+}
 # 
 # PORTION_3 = {
 #   label: "Family",
@@ -31,7 +31,7 @@ PORTION_1 = {
 # }
 
 def naming_system
-  PORTION_1
+  PORTION_1[:sub_category][:sub_category][:sub_category] = PORTION_2
   # Remember:
   #  Kingdom
   #  Phylum
