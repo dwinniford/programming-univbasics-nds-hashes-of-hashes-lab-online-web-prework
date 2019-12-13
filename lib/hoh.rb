@@ -30,7 +30,7 @@ PORTION_1 = {
 #   sub_category: nil
 # }
 
-def naming_system = 
+def naming_system
   PORTION_1
   # Remember:
   #  Kingdom
